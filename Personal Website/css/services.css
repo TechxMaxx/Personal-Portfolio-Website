@@ -1,0 +1,87 @@
+.section--services {
+  padding: 6.4rem 0;
+}
+
+.section-services--container {
+  padding: 0 18rem 0 6.4rem;
+  width: 100%;
+}
+
+.service--card {
+  background-color: #fff;
+  width: 100%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 2.4rem;
+  /* overflow-y: scroll; */
+}
+
+.service--grid-container {
+  display: grid;
+  gap: 2.8rem;
+}
+
+.service--header {
+  margin-bottom: 6.4rem;  
+}
+
+.service--header p:nth-child(1) {
+  margin-bottom: 1.2rem;
+  color: #a6a6a6;
+  font-size: 1.2rem;
+  letter-spacing: 0.50rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.service--header p:nth-child(2) {
+  letter-spacing: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.service--logo {
+  margin-top: 2rem;
+}
+
+.service--header h1 {
+  font-weight: 400;
+}
+
+.service--contents p {
+  font-size: 1.25rem;
+  margin-top: -2.4rem;
+}
+
+.service--logo ion-icon {
+  font-size: 3.2rem;
+  align-self: flex-start;
+}
+
+.service--logo-color-blue {
+  color: #2986cc;
+}
+
+.service--logo-color-red {
+  color: #cc0000;
+}
+
+.service--logo-color-yellow {
+  color: #f6da84;
+}
+
+.service--logo-color-purple {
+  color: #800080;
+}
+
+.service--logo-color-green {
+  color: #008000;
+}
+
+.service--logo-color-violet {
+  color: #774177;
+}

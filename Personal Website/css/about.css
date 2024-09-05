@@ -1,0 +1,152 @@
+.section--about {
+  padding: 6.4rem 0;
+}
+
+.section-about--container {
+  padding: 0 18rem 0 6.4rem;
+  width: 100%;
+}
+
+.about--contents {
+  margin-bottom: 6.4rem;
+}
+
+.about--contents p:nth-child(1) {
+  color: #a6a6a6;
+  font-size: 1.2rem;
+  letter-spacing: 0.50rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.about--contents h3:nth-child(2) {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.about--description {
+  margin-bottom: 3.2rem;
+}
+
+.about--me {
+  color: #999999;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2;
+}
+
+.about--me strong {
+  font-size: 1.6rem;
+  color: #4c4c4c;
+  letter-spacing: 0.10rem;
+}
+
+.about--skills {
+  color: #4c4c4c;
+  font-size: 1.6rem;
+}
+
+.about--description p:not(.about--skills) {
+  margin-bottom: 2.4rem;
+}
+
+.about--services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.8rem;
+  margin-bottom: 6.4rem;
+}
+
+.service--1,
+.service--2,
+.service--3,
+.service--4 {
+  padding: 3.2rem 1.2rem;
+  background-color: #fff;
+  border: none;
+  
+}
+
+
+.border-bottom--1 {
+  border-bottom: 2px solid green;
+}
+
+.border-bottom--2 {
+  border-bottom: 2px solid red; 
+}
+
+.border-bottom--3 {
+  border-bottom: 2px solid orange;
+}
+
+.border-bottom--4 {
+  border-bottom: 2px solid purple;
+}
+
+.service--1 .icon--color {
+  color: green;
+}
+
+.service--2 .icon--color {
+  color: red;
+}
+
+.service--3 .icon--color {
+  color: orange;
+}
+
+.service--4 .icon--color {
+  color: purple;
+}
+
+.icon--size {
+  font-size: 3rem;
+}
+
+.box--shadow {
+  box-shadow: 0 0 0.8rem 0.15rem #f2f2f2;
+}
+
+.margin--bottom {
+  margin-bottom: 2.4rem;
+}
+
+.service--info {
+  font-size: 1.6rem;
+}
+
+.hire--container {
+  padding: 3.2rem;
+  background-color: #ffdb99;
+  line-height: 3;
+}
+
+.hire--container .hire--content {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hire--button:link,
+.hire--button:visited {
+  display: block;
+  font-size: 1.4rem;
+  color: #2F2F2F;
+  text-decoration: none;
+  border: 1px solid #2F2F2F;
+  width: 10rem;
+  height: auto;
+  text-align: center;
+  /* padding: 1rem 1.2rem; */
+  text-transform: uppercase;
+  letter-spacing: 0.20rem;
+  transition: all 0.5s ease;
+}
+
+.hire--button:active, 
+.hire--button:hover {
+  color: #E50000;
+}

@@ -1,0 +1,81 @@
+.section--home {
+  padding: 4.2rem 0;
+  position: relative;
+}
+
+.section-home--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 18rem 0 6.4rem;
+}
+
+.home--contents {
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
+
+.home--contents span {
+  display: block;
+  font-weight: 400;
+  font-size: 4.8rem;
+}
+
+.tech-stacks--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 3.6rem;
+}
+
+.tech-stacks--container h1 {
+  font-size: 1.8rem;
+}
+
+.tech-stacks--container .html {
+  font-size: 1.2rem;
+  padding: 0.12rem 1.2rem;
+  background-color: #E59400;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.tech-stacks--container .css {
+  font-size: 1.2rem;
+  padding: 0.12rem 1.2rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background-color: #6FA8DC;
+}
+
+.tech-stacks--container .javascript {
+  font-size: 1.2rem;
+  padding: 0.12rem 1.2rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background-color: #FFFF66;
+}
+
+.home--button {
+  border: 1px solid currentColor;
+  padding: 1.2rem 1.6rem;
+  background: none;
+  transition: all 0.5s ease;
+} 
+
+.home--button > a:link,
+.home--button > a:visited {
+  color: #2F2F2F;
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.home--button > a:active,
+.home--button > a:hover {
+  color: #2F2F2F;
+
+}

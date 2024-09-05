@@ -1,0 +1,123 @@
+.section--contact {
+  padding: 6.4rem 0;
+}
+
+.section-contact--container {
+  padding: 0 18rem 0 6.4rem;
+}
+
+.contact--header {
+  margin-bottom: 6.4rem;
+}
+
+.contact--header h3:nth-child(1) {
+  color: #a6a6a6;
+  letter-spacing: 0.50rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+}
+
+.contact--header h1:nth-child(2) {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.section-contact--grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+}
+
+/* Contact Details */
+.d--flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+}
+
+.website--detail,
+.address--detail {
+  margin-bottom: 1.2rem;
+}
+
+.website--detail .website a:link,
+.website--detail .website a:visited,
+.phone--detail .number a:link,
+.phone--detail .number a:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #3677b2;
+}
+
+
+.address--detail .address span  {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: currentColor;
+}
+
+.address span {
+  display: block;
+}
+
+/* Form */
+.contact--form form > input, textarea {
+  display: block;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.contact--form form > label {
+  font-size: 1.2rem;
+  line-height: 2.4;
+}
+
+.contact--form form > input {
+  padding: 1.2rem;
+  border: none;
+}
+
+.contact--form form > textarea {
+  resize: none;
+  height: 20rem;
+  border: none;
+  padding: 1.2rem;
+}
+
+form > input:focus,
+form > textarea:focus {
+  outline: none;
+}
+
+.form--btn {
+  border: none;
+  background-color: #3d85c6;
+  padding: 1.2rem 1.6rem;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.form--btn:hover {
+  background-color: #5091cb;
+}
+
+.form--btn > a:link,
+.form--btn > a:visited {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.form--btn > a:active,
+.form--btn > a:hover {
+  color: #e5e5e5;
+}

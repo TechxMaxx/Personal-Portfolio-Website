@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans Soyombo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+}
+
+.mw-100rem {
+  max-width: 100rem;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blue--card {
+  border-bottom: 2px solid #2986cc;
+}
+
+.red--card {
+  border-bottom: 2px solid #cc0000;  
+}
+
+.yellow--card {
+border-bottom: 2px solid #f6da84;
+}
+
+.purple--card {
+border-bottom: 2px solid #800080;
+}
+
+.green--card {
+border-bottom: 2px solid #008000; 
+
+}
+
+.violet--card {
+border-bottom: 2px solid #774177;  
+}
+
+.flex--shrink-0 {
+  flex-shrink: 0;
+}
+
+.icon--size {
+  font-size: 2rem;
+}
+
+.icon--padding {
+  padding: 2rem;
+}
+
+.icon--color {
+  color: #3677b2;
+}
+
+.icon--bg-color {
+  background-color: #fff;
+} 
+
+.menu--icons {
+  display: none;
+  position: fixed;
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger--icon,
+.close--icon {
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
+.close--icon {
+  display: none;
+}
